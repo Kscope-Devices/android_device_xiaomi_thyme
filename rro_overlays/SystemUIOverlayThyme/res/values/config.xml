@@ -62,5 +62,5 @@
     <bool name="doze_proximity_sensor_supported">false</bool>
 
     <!-- Udfps vendor code -->
-    <integer name="config_udfps_vendor_code">22</integer>
+    <integer name="config_udfpsVendorCode">22</integer>
 </resources>
