@@ -92,6 +92,25 @@ system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
 system_ext/lib64/libmmparser_lite.so
 
+# MIUI Camera
+-system/priv-app/MiuiCamera/MiuiCamera.apk;OVERRIDES=Snap,GoogleCameraGo
+system/lib64/android.hardware.camera.common@1.0.so
+system/lib64/libcamera_algoup_jni.xiaomi.so
+system/lib64/libcamera_mianode_jni.xiaomi.so
+system/lib64/libcameraservice.so
+system/lib64/libdoc_photo.so
+system/lib64/libdoc_photo_c++_shared.so
+system/lib64/libhidltransport.so
+system/lib64/libmotion_photo.so
+system/lib64/libmotion_photo_c++_shared.so
+system/lib64/libmotion_photo_mace.so
+system/lib64/libopencl-camera.so
+system_ext/lib64/libcameraimpl.so
+
+# MIUI Camera - From miui_HAYDNGlobal_V13.0.1.0.SKKMIXM
+system/lib64/libmicampostproc_client.so|60e7fd62127da3a6e70278f6cad1f1068c2c5c68
+system/lib64/vendor.xiaomi.hardware.campostproc@1.0.so|9e36a88f50d48c2c63436aba3299dff892ef60f1
+
 # Permissions
 etc/permissions/privapp-permissions-qti.xml
 etc/sysconfig/qti_whitelist.xml
