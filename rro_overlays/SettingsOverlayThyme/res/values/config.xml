@@ -39,4 +39,7 @@
 
     <!-- Define battery charge cycle node -->
     <string name="config_battery_charge_cycle">/sys/class/power_supply/bms/cycle_count</string>
+
+    <!-- Whether to show notch mode settings in display settings -->
+    <bool name="config_show_notch_mode_settings">true</bool>
 </resources>
