@@ -16,6 +16,18 @@
   { 
     "repository"   : "android_hardware_xiaomi",
     "target_path"  : "hardware/xiaomi"
+  },
+  { 
+    "repository"   : "LynnrinChan/android_vendor_xiaomi_thyme-firmware",
+    "target_path"  : "vendor/xiaomi/thyme-firmware",
+    "branch"       : "sunflowerleaf",
+    "remote"       : "gitlab"
+  },
+  { 
+    "repository"   : "LynnrinChan/android_vendor_xiaomi_thyme-miuicamera",
+    "target_path"  : "vendor/xiaomi/thyme-miuicamera",
+    "branch"       : "sunflowerleaf",
+    "remote"       : "gitlab"
   }
 ]
 
