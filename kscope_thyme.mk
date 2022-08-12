@@ -24,3 +24,5 @@ PRODUCT_MODEL := M2102J2SC
 PRODUCT_NAME := kscope_thyme
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+BUILD_FINGERPRINT := Xiaomi/thyme/thyme:12/SKQ1.211006.001/V13.0.3.0.SGACNXM:user/release-keys

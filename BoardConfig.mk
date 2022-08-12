@@ -161,6 +161,9 @@ BOARD_AVB_VBMETA_SYSTEM_KEY_PATH := external/avb/test/data/testkey_rsa2048.pem
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(PLATFORM_SECURITY_PATCH_TIMESTAMP)
 BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX_LOCATION := 1
 
+# Security patch level
+PLATFORM_SECURITY_PATCH := 2022-01-01
+
 # Sepolicy
 include device/qcom/sepolicy/SEPolicy.mk
 
